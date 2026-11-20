@@ -1,11 +1,12 @@
 project:
   type: book
 
+language: es
+
 book:
   title: "Notas Aprendizaje Supervisado"
   author: "Prestadores de SS"
   date: today
-  language: es
   
   chapters:
     - index.qmd
