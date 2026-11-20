@@ -1,3 +1,47 @@
+---
+engine: julia
+---
+
 # ¿Qué es Julia?
 
-hola
+Julia es un lenguaje de programación de alto nivel, dinámico y de código abierto, diseñado principalmente para la computación científica y numérica. Busca combinar una sintaxis clara y expresiva con un alto rendimiento computacional.
+
+Su desarrollo comenzó en 2009 y fue presentado públicamente en 2012 por Jeff Bezanson, Stefan Karpinski, Viral B. Shah y Alan Edelman. La primera versión estable, Julia 1.0, se publicó en agosto de 2018.
+
+## ¿Por qué se creó?
+
+En la computación científica era habitual utilizar un lenguaje para explorar ideas y desarrollar modelos, y otro para acelerar los cálculos más exigentes. Esto podía implicar mantener código en varios lenguajes y conectar herramientas diferentes.
+
+Julia surgió con el propósito de reducir esa separación: ofrecer un lenguaje que permitiera experimentar, expresar ideas y, al mismo tiempo, ejecutar cálculos con un rendimiento elevado.
+
+## Características principales
+
+Entre las características que distinguen a Julia se encuentran:
+
+- **Tipado dinámico:** podemos comenzar a programar sin declarar explícitamente el tipo de cada variable.
+- **Alto rendimiento:** utiliza compilación justo a tiempo (JIT, por sus siglas en inglés), que genera código máquina optimizado durante la ejecución.
+- **Despacho múltiple:** permite definir diferentes implementaciones de una misma función y seleccionar cuál utilizar según los tipos de todos sus argumentos.
+- **Sintaxis expresiva:** facilita escribir operaciones numéricas y matemáticas de forma legible.
+- **Ecosistema científico:** cuenta con bibliotecas para álgebra lineal, optimización, simulación y otras áreas.
+- **Código abierto:** su desarrollo y código fuente están disponibles para la comunidad.
+
+Estas características hacen de Julia una herramienta especialmente interesante para la computación científica. Sin embargo, su utilidad no se limita a estas áreas: es un lenguaje de propósito general.
+
+## Nuestro primer programa: ¡Hola, mundo!
+
+Una tradición al aprender un lenguaje de programación consiste en escribir un programa que muestre un mensaje en pantalla. En Julia podemos hacerlo con una sola instrucción:
+
+```{julia}
+println("¡Hola, mundo!")
+```
+
+La función `println()` muestra en la salida el contenido que recibe. En este ejemplo, dicho contenido es una cadena de caracteres: el texto escrito entre comillas.
+
+¡Ya hemos ejecutado nuestro primer programa en Julia!
+
+## Para consultar
+
+- [Sitio oficial de Julia](https://julialang.org/)
+- [Documentación oficial](https://docs.julialang.org/en/v1/)
+- Bezanson, J., Karpinski, S., Shah, V. B. y Edelman, A. (2012). [Why We Created Julia](https://julialang.org/blog/2012/02/why-we-created-julia/).
+- Lauwens, B. y Downey, A. [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html).
