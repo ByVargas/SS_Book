@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "SS_Book",
+    "title": "Notas Aprendizaje Supervisado",
     "section": "",
     "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
@@ -10,23 +10,78 @@
     ]
   },
   {
+    "objectID": "Libro/Parte1_Julia/00_que_es_julia.html",
+    "href": "Libro/Parte1_Julia/00_que_es_julia.html",
+    "title": "1  ¿Qué es Julia?",
+    "section": "",
+    "text": "1.1 ¿Por qué se creó?\nJulia es un lenguaje de programación de alto nivel, dinámico y de código abierto, diseñado principalmente para la computación científica y numérica. Busca combinar una sintaxis clara y expresiva con un alto rendimiento computacional.\nSu desarrollo comenzó en 2009 y fue presentado públicamente en 2012 por Jeff Bezanson, Stefan Karpinski, Viral B. Shah y Alan Edelman. La primera versión estable, Julia 1.0, se publicó en agosto de 2018.\nEn la computación científica era habitual utilizar un lenguaje para explorar ideas y desarrollar modelos, y otro para acelerar los cálculos más exigentes. Esto podía implicar mantener código en varios lenguajes y conectar herramientas diferentes.\nJulia surgió con el propósito de reducir esa separación: ofrecer un lenguaje que permitiera experimentar, expresar ideas y, al mismo tiempo, ejecutar cálculos con un rendimiento elevado.",
+    "crumbs": [
+      "Parte I: Julia",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>¿Qué es Julia?</span>"
+    ]
+  },
+  {
+    "objectID": "Libro/Parte1_Julia/00_que_es_julia.html#características-principales",
+    "href": "Libro/Parte1_Julia/00_que_es_julia.html#características-principales",
+    "title": "1  ¿Qué es Julia?",
+    "section": "1.2 Características principales",
+    "text": "1.2 Características principales\nEntre las características que distinguen a Julia se encuentran:\n\nTipado dinámico: podemos comenzar a programar sin declarar explícitamente el tipo de cada variable.\nAlto rendimiento: utiliza compilación justo a tiempo (JIT, por sus siglas en inglés), que genera código máquina optimizado durante la ejecución.\nDespacho múltiple: permite definir diferentes implementaciones de una misma función y seleccionar cuál utilizar según los tipos de todos sus argumentos.\nSintaxis expresiva: facilita escribir operaciones numéricas y matemáticas de forma legible.\nEcosistema científico: cuenta con bibliotecas para álgebra lineal, optimización, simulación y otras áreas.\nCódigo abierto: su desarrollo y código fuente están disponibles para la comunidad.\n\nEstas características hacen de Julia una herramienta especialmente interesante para la computación científica. Sin embargo, su utilidad no se limita a estas áreas: es un lenguaje de propósito general.",
+    "crumbs": [
+      "Parte I: Julia",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>¿Qué es Julia?</span>"
+    ]
+  },
+  {
+    "objectID": "Libro/Parte1_Julia/00_que_es_julia.html#nuestro-primer-programa-hola-mundo",
+    "href": "Libro/Parte1_Julia/00_que_es_julia.html#nuestro-primer-programa-hola-mundo",
+    "title": "1  ¿Qué es Julia?",
+    "section": "1.3 Nuestro primer programa: ¡Hola, mundo!",
+    "text": "1.3 Nuestro primer programa: ¡Hola, mundo!\nUna tradición al aprender un lenguaje de programación consiste en escribir un programa que muestre un mensaje en pantalla. En Julia podemos hacerlo con una sola instrucción:\n\nprintln(\"¡Hola, mundo!\")\n\n¡Hola, mundo!\n\n\nLa función println() muestra en la salida el contenido que recibe. En este ejemplo, dicho contenido es una cadena de caracteres: el texto escrito entre comillas.\n¡Ya hemos ejecutado nuestro primer programa en Julia!",
+    "crumbs": [
+      "Parte I: Julia",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>¿Qué es Julia?</span>"
+    ]
+  },
+  {
+    "objectID": "Libro/Parte1_Julia/00_que_es_julia.html#para-consultar",
+    "href": "Libro/Parte1_Julia/00_que_es_julia.html#para-consultar",
+    "title": "1  ¿Qué es Julia?",
+    "section": "1.4 Para consultar",
+    "text": "1.4 Para consultar\n\nSitio oficial de Julia\nDocumentación oficial\nBezanson, J., Karpinski, S., Shah, V. B. y Edelman, A. (2012). Why We Created Julia.\nLauwens, B. y Downey, A. Think Julia.",
+    "crumbs": [
+      "Parte I: Julia",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>¿Qué es Julia?</span>"
+    ]
+  },
+  {
+    "objectID": "Libro/Parte2_AprendizajeSupervisado/00_intro_aprendizaje_supervisado.html",
+    "href": "Libro/Parte2_AprendizajeSupervisado/00_intro_aprendizaje_supervisado.html",
+    "title": "2  Introducción al Aprendizaje Supervisado",
+    "section": "",
+    "text": "hola",
+    "crumbs": [
+      "Parte II: Aprendizaje Supervisado",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción al Aprendizaje Supervisado</span>"
+    ]
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "3  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. (USA) 27 (2): 97-111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
