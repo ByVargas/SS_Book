@@ -2,11 +2,19 @@ project:
   type: book
 
 book:
-  title: "SS_Book"
-  author: "Norah Jones"
-  date: "11/19/2026"
+  title: "Notas Aprendizaje Supervisado"
+  author: "Prestadores de SS"
+  date: today
+  language: es
+  
   chapters:
     - index.qmd
+    - part: "Parte I: Julia"
+      chapters:
+        - Libro/Parte1_Julia/00_que_es_julia.qmd
+    - part: "Parte II: Aprendizaje Supervisado"
+      chapters:
+        - Libro/Parte2_AprendizajeSupervisado/00_intro_aprendizaje_supervisado.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
